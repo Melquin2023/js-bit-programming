@@ -114,7 +114,7 @@ class Parqueadero {
     this.tarifas = {};
   }
 
-  ingresarVehiculo(vehiculo) {
+   ingresarVehiculo(vehiculo) {
     if (this.espaciosDisponibles > 0) {
       this.vehiculosEstacionados.push({ vehiculo, horaIngreso: new Date() });
       this.espaciosDisponibles--;

@@ -45,13 +45,14 @@
      }
  }
 
-// function numpar_e_impar(){
-//     for (i=0; i<10; i++){
-//         if(i % 2 === 0 )
-//         console.log ("los numeros pares son" + i)
-        
-//         }
-//     }
-//     else {
-//         console.log("los numero son impares")
-// }
+ function numpar_e_impar(numero){
+     for (i=0; i<10; i++){
+         if(i % 2 === 0 ){
+         console.log ("los numeros pares son" + i)
+         }
+    
+     else {
+         console.log("los numero son impares")
+}
+}
+}
